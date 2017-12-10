@@ -7,7 +7,7 @@
     "license": "MIT",
     "private": true,
     "dependencies": {
-        "adaptive-linearization": "^1.0.1",
+        "adaptive-linearization": "^1.0.2",
         "domready": "^1.0.8",
         "object-assign": "^4.1.1",
         "react": "^16.2.0",
