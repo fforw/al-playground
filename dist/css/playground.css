@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+    overflow: hidden;
+}
+.playground {
+    height: 350px;
+    border-bottom: 2px solid #ddd;
+}
+.options {
+    height: 350px;
+}
+
+
+.linear
+{
+    stroke: #000;
+    fill: none;
+}
+
+.curve
+{
+    stroke: #c00;
+    fill: none;
+}
+
+.marker
+{
+    fill: #aaa;
+}
+
+.curve-end
+{
+    fill: #888;
+}
+
+.ctrl-line
+{
+    stroke: #800;
+}
+
+.ctrl-point
+{
+    fill: #800;
+}
