@@ -38,21 +38,22 @@ function Options(props)
             {
                 OPTION_NAMES
                     .map(name =>
-                    <div key={ name } className="form-group form-group-sm">
-                        <label htmlFor={ "opt-" + name } className="control-label col-md-3" >{ name }</label>
-                        <div className="col-md-3">
-                            <input
-                                id={ "opt-" + name }
-                                type="text"
-                                className="form-control"
-                                value={ String(opts[name]) }
-                                placeholder={ "Value for option '" + name + "'" }
-                                onChange={ ev => setOption(name, ev.target.value) }
-                            />
+                        <div key={ name } className="form-group form-group-sm">
+                            <label htmlFor={ "opt-" + name } className="control-label col-md-3" >{ name }</label>
+                            <div className="col-md-3">
+                                <input
+                                    id={ "opt-" + name }
+                                    type="text"
+                                    className="form-control"
+                                    value={ String(opts[name]) }
+                                    placeholder={ "Value for option '" + name + "'" }
+                                    onChange={ ev => setOption(name, ev.target.value) }
+                                />
+                            </div>
                         </div>
-                    </div>
-                )
+                    )
             }
+            <a className="btn btn-link pull-right" href="https://github.com/fforw/al-playground">Github project</a>
         </div>
     );
 }
